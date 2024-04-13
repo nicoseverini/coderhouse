@@ -1,0 +1,60 @@
+.maintravel {
+	width: auto;
+	height: auto;
+	margin-bottom: 20px;
+}
+.main__text {
+	text-align: center;
+	h1 {
+		text-align: center;
+		margin-top: 20px;
+	}
+	p {
+		margin: 20px 20%;
+		font-size: 20px;
+	}
+}
+.maintravel__options {
+	width: auto;
+	height: auto;
+}
+.white {
+	color: $color_3;
+}
+.container {
+	min-width: 100%;
+}
+.column__img {
+	a {
+		&:hover {
+			opacity: 0.6;
+			transition: 0.5s;
+		}
+	}
+	img {
+		width: 100%;
+		padding: 15px 0px;
+	}
+}
+.column__h2 {
+	text-decoration: underline;
+}
+.pad-bottom {
+	padding: 20px;
+}
+.column1 {
+	background-color: $background-color_2;
+}
+.column2 {
+	background-color: $background-color_8;
+}
+.column3 {
+	background-color: $background-color_9;
+}
+.column4 {
+	background-color: $background-color_5;
+	display: flex;
+	flex-flow: row nowrap;
+	text-align: center;
+	align-items: center;
+}

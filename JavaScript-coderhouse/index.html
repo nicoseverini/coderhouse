@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GuitarsCompany</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="./images/rickroleado1.webp">
+</head>
+<body id="body">
+  <header>
+    <div class="logo">
+      <h1><a href="#body">GuitarsCompany</a></h1>
+    </div>
+    <nav>
+      <ul>
+        <li class="guitarras"><a href="#guitars">Chose Guitars</a></li>
+      </ul>
+    </nav>
+    <div class="carrito_button_container">
+      <button id="carrito_button">
+        <img class="carrito_img" src="./images/shopping_cart_FILL0_wght400_GRAD0_opsz24.png" alt="carrito">
+        <p>CART</p>
+      </button>
+    </div>
+  </header>
+  <div id="carrito_menu" class="cerrado">
+    <h2>Cart</h2>
+    <div id="lista_productos_carrito">
+    </div>
+    <h2 id="total_carrito">
+      total: $<span></span>
+    </h2>
+    <section class="botones">
+      <button id="button_comprar_carrito" class="botones_opciones_carrito">
+        Buy
+      </button>
+      <button id="button_quitar_carrito" class="botones_opciones_carrito">
+        Remove all
+      </button>
+    </section>
+  </div>
+  <main id="main">
+    <section class="section_one">
+      <div class="section_one_about">
+        <h1>GuitarsCompany</h1>
+        <p>Our commitment is to offer you not only high quality products, but also a unique experience.</p>
+        <p>Our team of experts is ready to advise you on choosing the perfect guitar for you, and we are here to accompany you every step of your musical journey.</p>
+      </div>
+    </section>
+    <section class="section_two">
+      <div class="titulo_productos" id="guitars">
+        <h1>Guitars</h1>
+      </div>
+      <div class="guitar_options">
+          <input placeholder="What guitar are you looking for?" type="text" name="text" class="input" id="buscador">
+      </div>
+      <div class="container" id="productos">
+      
+      </div>
+    </section>
+  </main> 
+  <footer>
+    <p> Ⓒ 2023. GuitarsCompany. </p>
+    <p>All rights reserved ar | prod | ..... | 01/11/2023-22:08:33:345</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="./main.js"></script>
+</body>
+</html>

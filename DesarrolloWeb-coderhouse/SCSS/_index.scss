@@ -1,0 +1,143 @@
+.mainindex {
+	width: 100%;
+	height: auto;
+}
+.section-one {
+	width: 100%;
+	height: auto;
+	position: relative;
+	h1 {
+		position: absolute;
+		color: $color_3;
+		text-shadow: 2px 2px $color_1;
+		left: 50%;
+		top: 47%;
+		transform: translate(-50%,-50%);
+		text-align: center;
+		font-size: 30px;
+	}
+}
+.section-one__img {
+	width: 100%;
+	height: auto;
+}
+.section-one__button {
+	position: absolute;
+	left: 50%;
+	top: 70%;
+	transform: translate(-50%,-50%);
+	border-radius: 20px;
+	border: 0px;
+	padding: 8px 8px 3px 8px;
+	background-color: $background-color_2;
+	h3 {
+		color: $color_3;
+		font-size: 20px;
+	}
+	&:hover {
+		transition: 1s;
+		background-color: $background-color_3;
+	}
+}
+.section-two {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	background-color: $background-color_4;
+	padding: 70px 0px 70px;
+}
+.section-two__box1 {
+	width: 700px;
+	height: 600px;
+	text-align: left;
+	color: $color_3;
+	text-shadow: 2px 1px $color_1;
+	border: 1px $color_5 solid;
+	p {
+		font-size: 25px;
+		margin: 20% 27% 0px 30px;
+	}
+}
+.section-two__button {
+	border-radius: 20px;
+	border: 0px;
+	padding: 8px 8px 3px 8px;
+	background-color: $background-color_5;
+	margin: 30px 0px 0px 30px;
+	&:hover {
+		transition: 1s;
+		background-color: $background-color_3;
+	}
+	h3 {
+		color: $color_3;
+		font-size: 20px;
+	}
+}
+.section-two__img {
+	width: 640px;
+	height: 500px;
+	position: relative;
+	right: 180px;
+	border: 1px $color_5 solid;
+}
+.section-three {
+	width: 100%;
+	height: auto;
+}
+.section-three__box1 {
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+	margin: 50px 15%;
+	background-color: $background-color_5;
+	border-radius: 20px;
+}
+.section-three__box2 {
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-flow: row-reverse wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+	margin: 50px 15%;
+	background-color: $background-color_5;
+	border-radius: 20px;
+}
+.section-three__img {
+	width: 500px;
+	height: 300px;
+}
+.section-three__article {
+	display: block;
+	width: 500px;
+	height: 300px;
+	padding: 0px 50px;
+	color: $color_3;
+	p {
+		padding-top: 40px;
+		font-size: 20px;
+		text-align: left;
+	}
+}
+.section-three__button {
+	border-radius: 20px;
+	border: 0px;
+	padding: 6px 6px 0px 6px;
+	background-color: $background-color_2;
+	&:hover {
+		transition: 1s;
+		background-color: $background-color_3;
+	}
+	h3 {
+		color: $color_3;
+		font-size: 20px;
+	}
+}

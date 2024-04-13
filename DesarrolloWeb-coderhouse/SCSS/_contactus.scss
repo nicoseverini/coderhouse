@@ -1,0 +1,62 @@
+.maincontactus__options {
+	width: auto;
+	height: auto;
+	background-color: $background-color_5;
+	margin: 10px;
+	padding: 50px 20%;
+	border-radius: 20px;
+	border: 0;
+}
+label {
+	margin: 0px 10px;
+}
+.box {
+	display: block;
+	width: auto;
+	height: auto;
+	border: 1px $color_4 solid;
+	border-radius: 20px;
+	padding: 20px;
+}
+.maincontactus__form__top {
+	margin: 100px 0px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.maincontactus__form__mid {
+	margin: 100px 0px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.maincontactus__form__bottom {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.input {
+	background-color: $background-color_5;
+	color: $color_3;
+}
+.label__massege {
+	vertical-align: top;
+}
+#trips {
+	padding: 5px;
+	border-width: 2px;
+	border-style: inset;
+	border-color: $border-color_1;
+	border-image: initial;
+}
+#message {
+	border-width: 2px;
+	border-style: inset;
+	border-color: $border-color_1;
+	border-image: initial;
+}
+.box__input {
+	padding: 17px;
+	border: 1px $color_4 solid;
+	border-radius: 20px;
+}

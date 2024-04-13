@@ -1,0 +1,15 @@
+.mainwhatweoffer__bottom {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+.mainwhatweoffer__button {
+	border-radius: 20px;
+	border: 0px;
+	padding: 6px 6px 0px 6px;
+	background-color: $background-color_5;
+	margin-bottom: 17px;
+	h3 {
+		color: $color_3;
+	}
+}
